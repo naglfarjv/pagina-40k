@@ -49,20 +49,14 @@
 
 
 <script defer>
-    
-    t1 = $("#tblTbody").load('tbody.html');
-
-    function cargaInfo(){
-        $("#tblTbody").load('tbody.html');
-    }
-
     function creaTabla(){
         $('#tabla').DataTable();
     }
-
-    $.when(t1).done(function (){
+    
+    function cargaInfo(){
+        $("#tblTbody").load('tbody.html');
         creaTabla();
-    });
+    }
 
     cargaInfo();
 
