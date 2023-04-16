@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Listado 40k</title>
+        <meta charset="utf-8">
+        <!-- Añade los enlaces a las hojas de estilo de Bootstrap y DataTables -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js" integrity="sha512-6DC1eE3AWg1bgitkoaRM1lhY98PxbMIbhgYCGV107aZlyzzvaWCW1nJW2vDuYQm06hXrW0As6OGKcIaAVWnHJw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    </head>
+
+<body>
+
+
+    <!-- Añade el script de inicialización de DataTables -->
+    <div class="container-fluid">
+        <div class="col-xs-12">
+            <table id="tabla" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre de tienda</th>
+                        <th>Imagen</th>
+                        <th>Nombre</th>
+                        <th>Precio</th>
+                        <th>Enlace</th>
+                    </tr>
+                </thead>
+                <tbody id="tblTbody">
+                </tbody>
+                
+            </table>
+        </div>
+    </div>
+</body>
+</html>
+<!-- Añade los enlaces a las librerías de jQuery y DataTables -->
+
+
+
+<script>
+    $("#tblTbody").load('tbody.html');
+</script>
