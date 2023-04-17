@@ -1,1 +1,1 @@
-{"data": [["Wargaming","<img src="https://dojiw2m9tvv09.cloudfront.net/16153/product/M_grazkultrakka3734.png?29&time=1681701438"></img>","ORKS: GHAZGHKULL THRAKA","$ 67.990","<a target="_blank" href="https://www.wargaming.cl/product/orks-ghazghkull-thraka">Ver Detalle</a>"]]}
+{"data": [["Wargaming","<img src="https://dojiw2m9tvv09.cloudfront.net/16153/product/M_grazkultrakka3734.png?29&time=1681701438"></img>","ORKS: GHAZGHKULL THRAKA","$ 67.990","asdasd"]]}
